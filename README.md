@@ -238,7 +238,7 @@ Run the test with `python tests/verify_notebook.py --kernel <your-kernel> --no-p
 
 ## Built with AI
 
-This project was built with **Claude Code** (Anthropic) at my direction, starting from the instructor's DQN notebook. Claude Code wrote the SWIFT-MAN makeover, rewrote the notebook text, built phase two, ran both training runs, and drafted this README. I chose phase one's three hyperparameters; phase two uses the defaults from the course prompt. The reflection in the notebook is mine to write.
+This project was built with **Claude Code** (Anthropic) at my direction, starting from the instructor's DQN notebook. Claude Code wrote the SWIFT-MAN makeover, rewrote the notebook text, built phase two, ran both training runs, and drafted this README. I chose phase one's three hyperparameters; phase two uses the defaults from the course prompt. The notebook reflection and the phase-two limitation were drafted by Claude Code from the saved results, at my request.
 
 Review log:
 1. Built the pixel-art sprites and reviewed a rendered sprite sheet. Switched to a Mario/Luigi-style 8-bit Taylor at my request.
@@ -251,6 +251,7 @@ Review log:
 8. Tested Ctrl+C save and resume for real. Made resume re-run an evaluation that an interrupt cut short.
 9. Ran `tests/test_phase_two.py`: 6 passed. Ran the 500-episode experiment (after one aborted start), the three-way comparison, and a re-evaluation of every saved checkpoint.
 10. Drafted the phase-two limitation paragraph from the run's logs, at my request.
+11. Filled in the notebook's reflection cell (phase one) from the saved results, at my request.
 
 ## Sources
 
