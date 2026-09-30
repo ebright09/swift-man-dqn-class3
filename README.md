@@ -215,7 +215,11 @@ What the numbers do and don't say:
 - Five evaluation games per checkpoint is a small sample, and one run with one seed can't separate luck from settings.
 - This is about 1/40 of the original DQN paper's training budget (50 million frames). It says nothing about how far this agent would get with more training.
 
-**One limitation, and what could be tried next** (for Evan's own write-up): the final checkpoint happened to be good, but the agent was at its worst 100 episodes earlier, and the episode-275 peak had no saved checkpoint because only every 100th episode is saved. Candidate fixes to test one at a time: save the best checkpoint by evaluation score, use Double DQN targets, lower the learning rate, or use a larger replay budget when more RAM is free.
+**Limitation: the agent's skill was unstable, and my setup could not keep its best version.** Over the first 275 episodes, the average evaluation score rose fairly steadily from 232 (untrained) to 1,318. Over the next 125 episodes it fell to 434, even though training scores stayed around 900–1,050. It then recovered to 1,284 by episode 500. Plain DQN is known for this kind of instability: the network learns from its own shifting estimates. In my run, the slump also began shortly after the replay memory filled up (147,295 transitions, about 1 GB) and started overwriting old experience. I can't prove that caused it from a single run. The practical problem is that my final score depends on when training happened to stop. Had I stopped at episode 400, the "trained" agent would have scored barely more than random play. The episode-275 peak was also lost, because checkpoints were only saved every 100 episodes. Each evaluation is only five games from one training run with one seed, so part of the up-and-down movement is likely noise.
+
+**What I would try next:** first, save a checkpoint whenever the evaluation score beats the previous best, so the best agent is never lost. This doesn't change learning, only what gets kept. Then, changing one setting at a time and running more than one seed, I would test whether Double DQN targets or a lower learning rate (for example 5e-5) make the evaluation curve steadier. I'd also test a larger replay memory on a machine with more free RAM.
+
+*(Limitation paragraph drafted with Claude Code from this run's logs.)*
 
 ## What's in this repo
 
@@ -246,6 +250,7 @@ Review log:
 7. Replaced the planned 5-frames-per-transition replay with true single-frame storage after checking the RAM math, and added auto-sizing because only about 3 GB of RAM was free.
 8. Tested Ctrl+C save and resume for real. Made resume re-run an evaluation that an interrupt cut short.
 9. Ran `tests/test_phase_two.py`: 6 passed. Ran the 500-episode experiment (after one aborted start), the three-way comparison, and a re-evaluation of every saved checkpoint.
+10. Drafted the phase-two limitation paragraph from the run's logs, at my request.
 
 ## Sources
 
