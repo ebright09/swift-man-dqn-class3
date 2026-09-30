@@ -1,0 +1,66 @@
+[
+  {
+    "episode": 25,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      300.0
+    ],
+    "mean": 300.0,
+    "steps": [
+      598
+    ],
+    "time_limited": [
+      false
+    ]
+  },
+  {
+    "episode": 50,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      320.0
+    ],
+    "mean": 320.0,
+    "steps": [
+      588
+    ],
+    "time_limited": [
+      false
+    ]
+  },
+  {
+    "episode": 75,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      1000.0
+    ],
+    "mean": 1000.0,
+    "steps": [
+      684
+    ],
+    "time_limited": [
+      false
+    ]
+  },
+  {
+    "episode": 100,
+    "seeds": [
+      101
+    ],
+    "scores": [
+      1210.0
+    ],
+    "mean": 1210.0,
+    "steps": [
+      766
+    ],
+    "time_limited": [
+      false
+    ]
+  }
+]

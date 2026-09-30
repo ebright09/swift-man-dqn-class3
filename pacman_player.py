@@ -22,7 +22,7 @@ def _advance(state, frame_count):
     return False
 
 
-def show_popup(gif_path, title="Pac-Man sample · 4× speed"):
+def show_popup(gif_path, title="SWIFT-MAN sample · 4× speed"):
     """Start a separate GUI process so playback never holds up training.
 
     Return False on machines without Tk or a desktop; the notebook keeps its
@@ -108,7 +108,7 @@ def play(gif_path, title):
     tk.Checkbutton(root, text="Keep above other windows", variable=on_top,
                    command=lambda: root.attributes("-topmost", on_top.get()),
                    bg="#101522", fg="white", selectcolor="#101522").pack()
-    tk.Label(root, text=f"Recorded sample · plays {PREVIEW_PLAYS} times",
+    tk.Label(root, text=f"Recorded sample · plays {PREVIEW_PLAYS} times · parody, not affiliated",
              bg="#101522", fg="#b9c4d6", font=("Helvetica", 10)).pack(pady=8)
     root.bind("<Escape>", lambda event: root.destroy())
     root.lift()
@@ -117,4 +117,4 @@ def play(gif_path, title):
 
 
 if __name__ == "__main__":
-    play(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "Pac-Man sample")
+    play(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "SWIFT-MAN sample")
