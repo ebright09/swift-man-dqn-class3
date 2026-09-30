@@ -5,3 +5,5 @@ pacman_runs/
 *.pt
 .DS_Store
 .vscode/settings.json
+runs/
+.pytest_cache/
