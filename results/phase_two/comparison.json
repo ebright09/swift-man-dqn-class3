@@ -1,0 +1,107 @@
+{
+  "checkpoint": "runs/phase_two_500/checkpoints/final.pt",
+  "episode": 500,
+  "environment_steps": 322790,
+  "max_steps_per_episode": 3000,
+  "results": [
+    {
+      "label": "random actions",
+      "seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "scores": [
+        190.0,
+        250.0,
+        140.0,
+        280.0,
+        320.0
+      ],
+      "mean": 236.0,
+      "steps": [
+        484,
+        467,
+        336,
+        576,
+        500
+      ],
+      "time_limited": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eval_epsilon": 1.0
+    },
+    {
+      "label": "untrained network",
+      "seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "scores": [
+        190.0,
+        280.0,
+        190.0,
+        260.0,
+        240.0
+      ],
+      "mean": 232.0,
+      "steps": [
+        740,
+        575,
+        522,
+        482,
+        322
+      ],
+      "time_limited": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eval_epsilon": 0.05
+    },
+    {
+      "label": "trained network",
+      "seeds": [
+        101,
+        202,
+        303,
+        404,
+        505
+      ],
+      "scores": [
+        1130.0,
+        2250.0,
+        880.0,
+        1010.0,
+        1150.0
+      ],
+      "mean": 1284.0,
+      "steps": [
+        712,
+        783,
+        710,
+        906,
+        820
+      ],
+      "time_limited": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "eval_epsilon": 0.05
+    }
+  ]
+}

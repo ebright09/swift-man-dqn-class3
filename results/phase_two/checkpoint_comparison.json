@@ -1,0 +1,177 @@
+[
+  {
+    "episode": 100,
+    "environment_steps": 52149,
+    "label": "episode 100",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      340.0,
+      360.0,
+      550.0,
+      270.0,
+      610.0
+    ],
+    "mean": 426.0,
+    "steps": [
+      456,
+      569,
+      610,
+      594,
+      694
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 200,
+    "environment_steps": 115991,
+    "label": "episode 200",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1080.0,
+      810.0,
+      1400.0,
+      930.0,
+      290.0
+    ],
+    "mean": 902.0,
+    "steps": [
+      890,
+      599,
+      806,
+      650,
+      360
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 300,
+    "environment_steps": 186270,
+    "label": "episode 300",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      840.0,
+      550.0,
+      680.0,
+      260.0,
+      510.0
+    ],
+    "mean": 568.0,
+    "steps": [
+      620,
+      613,
+      530,
+      318,
+      420
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 400,
+    "environment_steps": 253464,
+    "label": "episode 400",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      330.0,
+      400.0,
+      400.0,
+      340.0,
+      700.0
+    ],
+    "mean": 434.0,
+    "steps": [
+      396,
+      373,
+      432,
+      370,
+      696
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 500,
+    "environment_steps": 322790,
+    "label": "episode 500",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1130.0,
+      2250.0,
+      880.0,
+      1010.0,
+      1150.0
+    ],
+    "mean": 1284.0,
+    "steps": [
+      712,
+      783,
+      710,
+      906,
+      820
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  }
+]

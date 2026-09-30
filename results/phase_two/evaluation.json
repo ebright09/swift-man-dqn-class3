@@ -1,0 +1,716 @@
+[
+  {
+    "episode": 0,
+    "label": "untrained network",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      190.0,
+      280.0,
+      190.0,
+      260.0,
+      240.0
+    ],
+    "mean": 232.0,
+    "steps": [
+      740,
+      575,
+      522,
+      482,
+      322
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 25,
+    "label": "after 25 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      220.0,
+      890.0,
+      170.0,
+      200.0,
+      240.0
+    ],
+    "mean": 344.0,
+    "steps": [
+      422,
+      775,
+      544,
+      544,
+      652
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 50,
+    "label": "after 50 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      640.0,
+      390.0,
+      250.0,
+      580.0,
+      340.0
+    ],
+    "mean": 440.0,
+    "steps": [
+      592,
+      585,
+      458,
+      968,
+      730
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 75,
+    "label": "after 75 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      310.0,
+      270.0,
+      290.0,
+      250.0,
+      180.0
+    ],
+    "mean": 260.0,
+    "steps": [
+      410,
+      551,
+      550,
+      456,
+      452
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 100,
+    "label": "after 100 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      340.0,
+      360.0,
+      550.0,
+      270.0,
+      610.0
+    ],
+    "mean": 426.0,
+    "steps": [
+      456,
+      569,
+      610,
+      594,
+      694
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 125,
+    "label": "after 125 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      710.0,
+      620.0,
+      340.0,
+      640.0,
+      580.0
+    ],
+    "mean": 578.0,
+    "steps": [
+      648,
+      557,
+      488,
+      1100,
+      620
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 150,
+    "label": "after 150 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      460.0,
+      740.0,
+      1150.0,
+      550.0,
+      470.0
+    ],
+    "mean": 674.0,
+    "steps": [
+      532,
+      709,
+      718,
+      734,
+      764
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 175,
+    "label": "after 175 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1140.0,
+      500.0,
+      1090.0,
+      620.0,
+      660.0
+    ],
+    "mean": 802.0,
+    "steps": [
+      666,
+      533,
+      604,
+      564,
+      618
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 200,
+    "label": "after 200 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1080.0,
+      810.0,
+      1400.0,
+      930.0,
+      290.0
+    ],
+    "mean": 902.0,
+    "steps": [
+      890,
+      599,
+      806,
+      650,
+      360
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 225,
+    "label": "after 225 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      480.0,
+      1150.0,
+      650.0,
+      690.0,
+      650.0
+    ],
+    "mean": 724.0,
+    "steps": [
+      524,
+      727,
+      722,
+      674,
+      676
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 250,
+    "label": "after 250 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1700.0,
+      1410.0,
+      1310.0,
+      630.0,
+      390.0
+    ],
+    "mean": 1088.0,
+    "steps": [
+      852,
+      823,
+      770,
+      850,
+      510
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 275,
+    "label": "after 275 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      2150.0,
+      1820.0,
+      530.0,
+      910.0,
+      1180.0
+    ],
+    "mean": 1318.0,
+    "steps": [
+      754,
+      913,
+      618,
+      726,
+      536
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 300,
+    "label": "after 300 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      840.0,
+      550.0,
+      680.0,
+      260.0,
+      510.0
+    ],
+    "mean": 568.0,
+    "steps": [
+      620,
+      613,
+      530,
+      318,
+      420
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 325,
+    "label": "after 325 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      490.0,
+      650.0,
+      450.0,
+      410.0,
+      450.0
+    ],
+    "mean": 490.0,
+    "steps": [
+      432,
+      609,
+      472,
+      448,
+      406
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 350,
+    "label": "after 350 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      460.0,
+      1500.0,
+      970.0,
+      600.0,
+      830.0
+    ],
+    "mean": 872.0,
+    "steps": [
+      496,
+      767,
+      588,
+      560,
+      854
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 375,
+    "label": "after 375 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      510.0,
+      280.0,
+      1500.0,
+      620.0,
+      590.0
+    ],
+    "mean": 700.0,
+    "steps": [
+      446,
+      389,
+      596,
+      470,
+      492
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 400,
+    "label": "after 400 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      330.0,
+      400.0,
+      400.0,
+      340.0,
+      700.0
+    ],
+    "mean": 434.0,
+    "steps": [
+      396,
+      373,
+      432,
+      370,
+      696
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 425,
+    "label": "after 425 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1550.0,
+      1260.0,
+      1910.0,
+      900.0,
+      730.0
+    ],
+    "mean": 1270.0,
+    "steps": [
+      678,
+      997,
+      946,
+      886,
+      632
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 450,
+    "label": "after 450 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1430.0,
+      1000.0,
+      880.0,
+      1060.0,
+      440.0
+    ],
+    "mean": 962.0,
+    "steps": [
+      660,
+      603,
+      538,
+      772,
+      470
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 475,
+    "label": "after 475 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      950.0,
+      1460.0,
+      1270.0,
+      1310.0,
+      1320.0
+    ],
+    "mean": 1262.0,
+    "steps": [
+      734,
+      973,
+      902,
+      780,
+      936
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  },
+  {
+    "episode": 500,
+    "label": "after 500 episodes",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "scores": [
+      1130.0,
+      2250.0,
+      880.0,
+      1010.0,
+      1150.0
+    ],
+    "mean": 1284.0,
+    "steps": [
+      712,
+      783,
+      710,
+      906,
+      820
+    ],
+    "time_limited": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "eval_epsilon": 0.05
+  }
+]
